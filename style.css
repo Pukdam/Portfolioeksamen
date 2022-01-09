@@ -12,6 +12,11 @@ body {
   background-color: #c4cdbb;
 }
 
+p {
+  font-family: "Gilda Display", serif;
+  line-height: 25px;
+}
+
 /* burgermenu */
 .toggle-btn {
   display: none;
@@ -30,25 +35,6 @@ li a:hover {
 }
 
 /*Forsiden*/
-@media (min-width: 340px) {
-  #Puk_logo_img {
-    height: 30%;
-    width: 30%;
-    aspect-ratio: 423.52/404.06;
-    padding: 0%;
-    display: flex;
-  }
-}
-
-@media (max-width: 490px) {
-  #Puk_logo_img {
-    height: auto;
-    width: 37%;
-    aspect-ratio: 423.52/404.06;
-    padding: 0%;
-    display: flex;
-  }
-}
 
 @media (max-width: 600px) {
   /*Burger menu*/
@@ -79,7 +65,7 @@ li a:hover {
 
   #Puk_logo_img {
     height: 30%;
-    width: 30%;
+    width: 90px;
     aspect-ratio: 423.52/404.06;
     padding: 0%;
     display: flex;
@@ -215,6 +201,7 @@ li a:hover {
     grid-template-columns: 0.6fr 1fr 0.6fr;
     grid-template-rows: 0.5fr 0.2fr 0.5fr;
     font-family: "Gilda Display", serif;
+    font-size: 0.9em;
   }
 }
 
@@ -255,7 +242,7 @@ li a:hover {
 
   #Puk_logo_img {
     height: 100%;
-    width: 100%;
+    width: 90px;
     aspect-ratio: 423.52/404.06;
     place-content: left;
     grid-column: 1;
@@ -386,7 +373,7 @@ li a:hover {
 
   #Puk_logo_img {
     height: 100%;
-    width: 100%;
+    width: 90px;
     aspect-ratio: 423.52/404.06;
     place-content: left;
     grid-column: 1;
@@ -476,9 +463,16 @@ li a:hover {
 
   a {
     font-family: "Gilda Display", serif;
-    font-size: 1.4em;
+    font-size: 1.2em;
     text-decoration: none;
     color: black;
+  }
+
+  #nav_desktop {
+    display: grid;
+    place-content: end;
+    margin-bottom: 3%;
+    padding-right: 13px;
   }
 
   /*Overskrifter*/
@@ -540,7 +534,7 @@ li a:hover {
   /*Desktop nav*/
   #Puk_logo_img {
     height: 100%;
-    width: 90%;
+    width: 90px;
     aspect-ratio: 423.52/404.06;
     place-content: left;
     grid-column: 1;
@@ -560,6 +554,13 @@ li a:hover {
     color: black;
   }
 
+  #nav_desktop {
+    display: grid;
+    place-content: end;
+    margin-bottom: 3%;
+    padding-right: 13px;
+  }
+
   /*Overskrifter*/
   #Overskrift_1 {
     font-family: "Berkshire Swash", cursive;
@@ -567,6 +568,7 @@ li a:hover {
     grid-row: 1;
     grid-column: 1/4;
   }
+
   #Overskrift_2 {
     font-family: "Gilda Display", serif;
     font-size: 5em;
@@ -644,7 +646,7 @@ li a:hover {
   /*Desktop nav*/
   #Puk_logo_img {
     height: 100%;
-    width: 70%;
+    width: 90px;
     aspect-ratio: 423.52/404.06;
     place-content: left;
     grid-column: 1;
@@ -659,7 +661,7 @@ li a:hover {
   #nav_desktop {
     display: grid;
     place-content: end;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
     padding-right: 13px;
   }
 
@@ -670,7 +672,7 @@ li a:hover {
 
   a {
     font-family: "Gilda Display", serif;
-    font-size: 1.6em;
+    font-size: 1.4em;
     text-decoration: none;
     color: black;
   }
@@ -736,7 +738,7 @@ li a:hover {
   /*Desktop nav*/
   #Puk_logo_img {
     height: 100%;
-    width: 60%;
+    width: 90px;
     aspect-ratio: 423.52/404.06;
     place-content: left;
     grid-column: 1;
@@ -851,7 +853,7 @@ li a:hover {
   /*Desktop nav*/
   #Puk_logo_img {
     height: 100%;
-    width: 60%;
+    width: 90px;
     aspect-ratio: 423.52/404.06;
     place-content: left;
     grid-column: 1;
