@@ -25,6 +25,10 @@ body {
   font-family: "Gilda Display", serif;
 }
 
+li a:hover {
+  font-weight: bolder;
+}
+
 /*Forsiden*/
 @media (min-width: 340px) {
   #Puk_logo_img {
