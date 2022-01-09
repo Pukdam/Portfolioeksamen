@@ -32,7 +32,18 @@
         src="Elementer/Burger menu med farve lille.svg"
       />
     </button>
-    <nav>
+    <nav id="nav_burgermenu">
+      <ul>
+        <li><a href="Ommig.html">Puk</a></li>
+        <li><a href="Titelsekvens.html">Titelsekvens</a></li>
+        <li><a href="Web.html">Web</a></li>
+        <li><a href="UX.html">UX</a></li>
+        <li><a href="Animation.html">Animation</a></li>
+        <li><a href="Indhold.html">Indhold</a></li>
+      </ul>
+    </nav>
+
+    <nav id="nav_desktop" class="hidden">
       <ul>
         <li><a href="Ommig.html">Puk</a></li>
         <li><a href="Titelsekvens.html">Titelsekvens</a></li>
@@ -46,34 +57,42 @@
   <body>
     <section id="Forside_h1_billede">
       <h1 id="Overskrift_1">Puk Dam Sørensen</h1>
+
       <h1 id="Overskrift_2">PORTFOLIO</h1>
       <img
         id="Silhouette_img"
         src="Elementer/Puk silhouette med blomster og farve billede.png"
         alt="Silhouette billede"
       />
-    </section>
-    <section id="Velkommen_tekst">
-      <h2>
+      <h2 id="Forside_h2">
         Velkommen til min portfolio. <br />
-        Her kan du se hvad jeg har lavet på 1 semester, <br />
+        Her kan du se hvad jeg har lavet <br />
+        på 1 semester, <br />
         på multimediedesign uddannelsen.
       </h2>
     </section>
+
     <section id="Opgaver_sektion">
-      <button class="Tema_buttons">Puk <br />Om mig...</button>
-      <button class="Tema_buttons">Tema 1 <br />Titelsekvens</button>
-      <button class="Tema_buttons">Tema 2 <br />Web</button>
-      <button class="Tema_buttons">Tema 3 <br />UX</button>
-      <button class="Tema_buttons">Tema 4 <br />Animation</button>
-      <button class="Tema_buttons">Tema 5 <br />Indhold</button>
+      <a href="Ommig.html" class="Tema_buttons">Puk <br />Om mig</a>
+
+      <a href="Titelsekvens.html" class="Tema_buttons"
+        >Tema 1 <br />Titelsekvens</a
+      >
+
+      <a href="Web.html" class="Tema_buttons">Tema 2 <br />Web</a>
+
+      <a href="UX.html" class="Tema_buttons">Tema 3 <br />UX</a>
+
+      <a href="Animation.html" class="Tema_buttons">Tema 4 <br />Animation</a>
+
+      <a href="Indhold.html" class="Tema_buttons">Tema 5<br />Indhold</a>
     </section>
     <footer>
       <p id="Kontakt_footer_1">
         Af Puk Dam Sørensen <br />
         pukdam@gmail.com
       </p>
-      <p id="Kontakt_footer_2">Mobil: 42230600</p>
+      <p id="Kontakt_footer_2">Mobil: 42 23 06 00</p>
     </footer>
     <script src="Javascript.js"></script>
   </body>
