@@ -1,0 +1,148 @@
+/*Afsnit 1*/
+#Tema_3_overskrift_intro {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr;
+}
+
+.Overskrift_1_h2 {
+  grid-column: 1/4;
+  grid-row: 1;
+  font-size: 2em;
+  margin-top: 10px;
+  margin-left: 6px;
+}
+
+.Overskrift_2_h2 {
+  grid-column: 1/4;
+  grid-row: 2;
+  font-size: 2em;
+  margin-left: 6px;
+}
+
+#Tema_3_overskrift_intro img {
+  grid-column: 1/4;
+  grid-row: 3;
+  width: 370px;
+  margin: 5px 8px;
+}
+
+#Tema_3_overskrift_intro p {
+  grid-column: 1/4;
+  grid-row: 4;
+  font-size: 1.1em;
+  margin: 9px 10px;
+}
+
+#Tema_3_overskrift_intro ul {
+  font-family: "Gilda Display", serif;
+  line-height: 25px;
+  grid-column: 1/4;
+  grid-row: 5;
+  font-size: 1em;
+  margin-right: 10px;
+  margin-left: -8px;
+  margin-top: -21px;
+}
+
+/*2 afsnit*/
+#afsnit_2_tema_3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr;
+}
+
+#Webshop_h3 {
+  grid-column: 1/4;
+  grid-row: 1;
+  font-size: 1.8em;
+  margin-bottom: 51px;
+  margin-left: 6px;
+}
+
+#afsnit_2_tema_3 p {
+  grid-column: 1/4;
+  grid-row: 2;
+  font-size: 1.1em;
+  margin: 0px 10px;
+  margin-top: -53px;
+}
+
+#afsnit_2_tema_3 img {
+  grid-column: 1/4;
+  grid-row: 3;
+  width: 370px;
+  margin: 0px 8px;
+}
+
+#Koncept_h3 {
+  grid-column: 1/4;
+  grid-row: 4;
+  font-size: 1.8em;
+  margin-bottom: 36px;
+  margin-top: 21px;
+  margin-left: 6px;
+}
+
+#afsnit_2_tema_3 ul {
+  font-family: "Gilda Display", serif;
+  line-height: 25px;
+  grid-column: 1/4;
+  grid-row: 5;
+  font-size: 1em;
+  margin-right: 10px;
+  margin-left: -8px;
+  margin-top: -21px;
+}
+
+/*3 afsnit*/
+#afsnit_3_tema_3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.1fr 0.1fr 0.1fr;
+}
+
+#Prototypen_h3 {
+  grid-column: 1/4;
+  grid-row: 1;
+  font-size: 1.8em;
+  margin-top: 40px;
+  margin-left: 6px;
+}
+
+#afsnit_3_tema_3 p {
+  grid-column: 1/4;
+  grid-row: 2;
+  font-size: 1.1em;
+  margin: 9px 10px;
+}
+
+#afsnit_3_tema_3 img {
+  grid-column: 1/4;
+  grid-row: 3;
+  width: 360px;
+  margin: 0px 8px;
+  margin-left: 15px;
+}
+
+/*4 afsnit*/
+#Refleksion_tema_3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.1fr 0.1fr;
+}
+
+#Refleksion_tema_3 h3 {
+  grid-column: 1/4;
+  grid-row: 1;
+  font-size: 1.8em;
+  margin-top: 40px;
+  margin-left: 6px;
+}
+
+#Refleksion_tema_3 p {
+  grid-column: 1/4;
+  grid-row: 2;
+  font-size: 1.1em;
+  margin: 9px 10px;
+}
