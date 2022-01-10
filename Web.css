@@ -19,9 +19,17 @@
   font-size: 2em;
   margin-left: 6px;
 }
-#afsnit_1_tema_2 p {
+
+#afsnit_1_tema_2 img {
+  width: 370px;
   grid-column: 1/4;
   grid-row: 3;
+  margin: 5px 8px;
+}
+
+#afsnit_1_tema_2 p {
+  grid-column: 1/4;
+  grid-row: 4;
   font-size: 1.1em;
   margin: 9px 10px;
 }
@@ -30,16 +38,9 @@
   font-family: "Gilda Display", serif;
   line-height: 25px;
   grid-column: 1/4;
-  grid-row: 4;
+  grid-row: 5;
   font-size: 1em;
   margin: 9px -15px;
-}
-
-#afsnit_1_tema_2 img {
-  width: 370px;
-  grid-column: 1/4;
-  grid-row: 5;
-  margin: 5px 8px;
 }
 
 /*2 afsnit*/
@@ -49,19 +50,20 @@
   grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr;
 }
 
-#afsnit_2_p_1 {
+#afsnit_2_billede_1 {
+  width: 370px;
   grid-column: 1/4;
   grid-row: 1;
+  margin: 5px 8px;
+}
+
+#afsnit_2_p_1 {
+  grid-column: 1/4;
+  grid-row: 2;
   font-size: 1.1em;
   margin: 9px 10px;
 }
 
-#afsnit_2_billede_1 {
-  width: 370px;
-  grid-column: 1/4;
-  grid-row: 2;
-  margin: 5px 8px;
-}
 #afsnit_2_billede_2 {
   width: 270px;
   grid-column: 1/4;
