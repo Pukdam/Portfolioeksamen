@@ -154,6 +154,23 @@ li a:hover {
     margin-left: 100px;
   }
 
+  .Om_mig_button {
+    background-color: #e8f2dc;
+    border-color: #6c7264;
+    border-style: solid;
+    color: #6c7264;
+    padding: 10px;
+    font-size: 1.2em;
+    font-family: "Berkshire Swash", cursive;
+    justify-content: center;
+    text-align-last: center;
+    grid-row: 5;
+    grid-column: 1/4;
+    height: 100%;
+    width: 40%;
+    margin-left: 100px;
+  }
+
   /*Tema Knapper forside*/
   #Opgaver_sektion {
     display: grid;
@@ -172,7 +189,7 @@ li a:hover {
     color: #e8f2dc;
     height: 104%;
     width: 105%;
-    padding: 4%;
+    padding: 0px;
     font-size: 1.2em;
     font-family: "Berkshire Swash", cursive;
     justify-content: center;
