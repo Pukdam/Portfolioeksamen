@@ -23,7 +23,7 @@
 #Tema_3_overskrift_intro img {
   grid-column: 1/4;
   grid-row: 3;
-  width: 370px;
+  width: 355px;
   margin: 5px 8px;
 }
 
@@ -71,7 +71,7 @@
 #afsnit_2_tema_3 img {
   grid-column: 1/4;
   grid-row: 3;
-  width: 370px;
+  width: 355px;
   margin: 0px 8px;
 }
 
@@ -120,7 +120,7 @@
 #afsnit_3_tema_3 img {
   grid-column: 1/4;
   grid-row: 3;
-  width: 360px;
+  width: 346px;
   margin: 0px 8px;
   margin-left: 15px;
 }
