@@ -30,7 +30,7 @@ p {
   font-family: "Gilda Display", serif;
 }
 
-li a:hover {
+nav li a:hover {
   font-weight: bolder;
 }
 
@@ -235,7 +235,7 @@ li a:hover {
     grid-row: 3;
   }
 
-  li {
+  nav li {
     display: inline;
     padding: 5px;
   }
@@ -383,7 +383,7 @@ li a:hover {
     grid-row: 3;
   }
 
-  li {
+  nav li {
     display: inline;
     padding: 5px;
   }
@@ -507,7 +507,7 @@ li a:hover {
 }
 
 @media (min-width: 770px) {
-  li {
+  nav li {
     display: inline;
     padding: 5px;
   }
@@ -593,7 +593,7 @@ li a:hover {
     display: grid;
   }
 
-  li {
+  nav li {
     display: inline;
     padding: 5px;
   }
@@ -733,7 +733,7 @@ li a:hover {
     padding-right: 13px;
   }
 
-  li {
+  nav li {
     display: inline;
     padding: 5px;
   }
@@ -823,7 +823,7 @@ li a:hover {
   /*Desktop nav*/
   #Puk_logo_img {
     height: 100%;
-    width: 90px;
+    width: 95px;
     aspect-ratio: 423.52/404.06;
     place-content: left;
     grid-column: 1;
@@ -834,11 +834,11 @@ li a:hover {
   #nav_desktop {
     display: grid;
     place-content: end;
-    margin-bottom: 3%;
+    margin-bottom: 2%;
     padding-right: 13px;
   }
 
-  li {
+  nav li {
     display: inline;
     padding: 5px;
   }
@@ -970,7 +970,7 @@ li a:hover {
     padding-right: 13px;
   }
 
-  li {
+  nav li {
     display: inline;
     padding: 5px;
   }
