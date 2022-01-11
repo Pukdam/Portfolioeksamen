@@ -1,0 +1,113 @@
+/*1 afsnit*/
+#Tema_6_overskrift_intro {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.1fr 0.1fr 0.3fr 0.2fr 1fr 1fr;
+}
+
+.Overskrift_1_h2 {
+  grid-column: 1/4;
+  grid-row: 1;
+  font-size: 2em;
+  margin-top: 10px;
+  margin-left: 6px;
+}
+
+.Overskrift_2_h2 {
+  grid-column: 1/4;
+  grid-row: 2;
+  font-size: 2em;
+  margin-left: 6px;
+}
+
+#afsnit_1_p_1 {
+  grid-column: 1/4;
+  grid-row: 3;
+  font-size: 1.1em;
+  margin: 9px 10px;
+}
+
+#afsnit_1_billede_1 {
+  width: 355px;
+  grid-column: 1/4;
+  grid-row: 4;
+  margin: 5px 8px;
+}
+
+#Tema_6_overskrift_intro h3 {
+  grid-column: 1/4;
+  grid-row: 5;
+  font-size: 1.8em;
+  margin-top: 30px;
+  margin-left: 6px;
+}
+
+#afsnit_1_p_2 {
+  grid-column: 1/4;
+  grid-row: 6;
+  font-size: 1.1em;
+  margin: 9px 10px;
+}
+
+/*2 afsnit*/
+#afsnit_2_tema_6 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr;
+}
+
+#afsnit_2_billede_2 {
+  width: 355px;
+  grid-column: 1/4;
+  grid-row: 1;
+  margin: 5px 8px;
+}
+
+#afsnit_2_tema_6 h3 {
+  grid-column: 1/4;
+  grid-row: 2;
+  font-size: 1.8em;
+  margin-top: 30px;
+  margin-left: 6px;
+}
+
+#afsnit_2_tema_6 p {
+  grid-column: 1/4;
+  grid-row: 3;
+  font-size: 1.1em;
+  margin: 9px 10px;
+}
+
+#afsnit_2_tema_6 a {
+  grid-column: 1/4;
+  grid-row: 4;
+}
+
+#afsnit_2_billede_3 {
+  width: 355px;
+  grid-column: 1/4;
+  grid-row: 5;
+  margin: 5px 8px;
+}
+
+/*3 afsnit*/
+#Refleksion_tema_6 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.1fr 0.1fr;
+}
+
+#Refleksion_tema_6 h3 {
+  grid-column: 1/4;
+  grid-row: 1;
+  font-size: 1.8em;
+  margin-top: 30px;
+  margin-left: 6px;
+}
+
+#Refleksion_tema_6 p {
+  grid-column: 1/4;
+  grid-row: 2;
+  font-size: 1.1em;
+  margin: 9px 10px;
+}
