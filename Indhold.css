@@ -179,7 +179,7 @@ body {
   margin: 2% 2%;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 809px) {
   /*1 afsnit*/
   #Tema_5_overskrift_intro {
     display: grid;
@@ -215,17 +215,17 @@ body {
   #Tema_5_overskrift_intro p {
     grid-column: 1/4;
     grid-row: 4;
-    font-size: 1.1em;
+    font-size: 1.5em;
     margin: 0% 2%;
     margin-top: 2%;
   }
 
   #Tema_5_overskrift_intro ul {
     font-family: "Gilda Display", serif;
-    line-height: 25px;
+    line-height: 30px;
     grid-column: 1/4;
     grid-row: 5;
-    font-size: 1em;
+    font-size: 1.5em;
     margin-right: 3%;
     margin-top: 0%;
   }
@@ -248,7 +248,7 @@ body {
   #afsnit_2_tema_5 p {
     grid-column: 1/4;
     grid-row: 4;
-    font-size: 1.1em;
+    font-size: 1.5em;
     margin: 2% 2%;
     margin-top: 1%;
   }
@@ -257,6 +257,27 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr;
+  }
+  /*p*/
+  #afsnit_3_p_1 {
+    grid-column: 1/4;
+    grid-row: 3;
+    font-size: 1.5em;
+    margin: 2% 2%;
+  }
+
+  #afsnit_3_p_2 {
+    grid-column: 1/4;
+    grid-row: 5;
+    font-size: 1.5em;
+    margin: 2% 2%;
+  }
+
+  #Refleksion_tema_5 p {
+    grid-column: 1/4;
+    grid-row: 2;
+    font-size: 1.5em;
+    margin: 2% 2%;
   }
 }
 
@@ -286,10 +307,11 @@ body {
   #Tema_5_overskrift_intro img {
     width: 58%;
     grid-column: 1/4;
-    grid-row: 2/4;
+    grid-row: 3/4;
     padding: 0% 2%;
     margin: 0% 0%;
     margin-left: 42%;
+    margin-top: 1%;
   }
 
   #Tema_5_overskrift_intro p {
@@ -297,7 +319,7 @@ body {
     grid-row: 3/4;
     font-size: 1.8em;
     margin: 2% 2%;
-    margin-right: 55%;
+    margin-right: 58%;
   }
 
   #Tema_5_overskrift_intro ul {

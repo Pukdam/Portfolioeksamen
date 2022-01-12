@@ -161,7 +161,7 @@ body {
   margin: 2% 2%;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 809px) {
   /*Afsnit 1*/
   #Tema_3_overskrift_intro {
     display: grid;
@@ -184,6 +184,21 @@ body {
     margin-left: 2%;
   }
 
+  #Tema_3_overskrift_intro p {
+    grid-column: 1/4;
+    grid-row: 4;
+    font-size: 1.5em;
+    margin: 2% 2%;
+  }
+
+  #Tema_3_overskrift_intro ul {
+    font-family: "Gilda Display", serif;
+    line-height: 30px;
+    grid-column: 1/4;
+    grid-row: 5;
+    font-size: 1.5em;
+    margin-right: 3%;
+  }
   /*2 afsnit*/
   #afsnit_2_tema_3 {
     display: grid;
@@ -202,36 +217,26 @@ body {
   #afsnit_2_tema_3 p {
     grid-column: 1/4;
     grid-row: 2;
-    font-size: 1.1em;
+    font-size: 1.5em;
     margin: 2% 2%;
     margin-top: 0%;
   }
 
-  #afsnit_2_tema_3 img {
-    grid-column: 1/4;
-    grid-row: 3;
-    width: 100%;
-    padding: 2% 2%;
-    margin: 2% 0%;
-  }
-
-  #Koncept_h3 {
-    grid-column: 1/4;
-    grid-row: 4;
-    font-size: 1.8em;
-    margin-bottom: 5%;
-    margin-top: 1%;
-    margin-left: 2%;
-  }
-
   #afsnit_2_tema_3 ul {
     font-family: "Gilda Display", serif;
-    line-height: 25px;
+    line-height: 30px;
     grid-column: 1/4;
     grid-row: 5;
-    font-size: 1em;
+    font-size: 1.5em;
     margin-right: 3%;
     margin-top: 0%;
+  }
+
+  #afsnit_3_tema_3 p {
+    grid-column: 1/4;
+    grid-row: 2;
+    font-size: 1.5em;
+    margin: 2% 2%;
   }
 
   /*3 afsnit*/
@@ -239,21 +244,6 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 0.1fr 0.1fr 0.1fr;
-  }
-
-  #Prototypen_h3 {
-    grid-column: 1/4;
-    grid-row: 1;
-    font-size: 1.8em;
-    margin-top: 5%;
-    margin-left: 2%;
-  }
-
-  #afsnit_3_tema_3 p {
-    grid-column: 1/4;
-    grid-row: 2;
-    font-size: 1.1em;
-    margin: 2% 2%;
   }
 
   #afsnit_3_tema_3 img {
@@ -282,18 +272,10 @@ body {
     margin-bottom: 0%;
   }
 
-  #Refleksion_tema_3 h3 {
-    grid-column: 1/4;
-    grid-row: 2;
-    font-size: 1.8em;
-    margin-top: 5%;
-    margin-left: 2%;
-  }
-
   #Refleksion_tema_3 p {
     grid-column: 1/4;
     grid-row: 3;
-    font-size: 1.1em;
+    font-size: 1.5em;
     margin: 2% 2%;
   }
 }
@@ -445,7 +427,7 @@ body {
     aspect-ratio: 468/465;
     grid-column: 1/4;
     grid-row: 2;
-    margin-left: 67%;
+    margin-left: 65%;
     margin-bottom: 0%;
   }
 

@@ -160,6 +160,73 @@ body {
     border-color: #494e43;
     margin-top: 4%;
   }
+
+  /*p*/
+  #afsnit_1_p_1 {
+    grid-column: 1/4;
+    grid-row: 3;
+    font-size: 1.5em;
+    margin: 0% 2%;
+    margin-top: -10%;
+  }
+
+  #afsnit_1_p_2 {
+    grid-column: 1/4;
+    grid-row: 6;
+    font-size: 1.5em;
+    margin: 2% 2%;
+  }
+
+  #afsnit_2_tema_6 p {
+    grid-column: 1/4;
+    grid-row: 3;
+    font-size: 1.5em;
+    margin: 2% 2%;
+  }
+
+  #Refleksion_tema_6 p {
+    grid-column: 1/4;
+    grid-row: 2;
+    font-size: 1.5em;
+    margin: 2% 2%;
+  }
+
+  /*grid*/
+  .Overskrift_1_h2 {
+    grid-column: 1/4;
+    grid-row: 1;
+    font-size: 2em;
+    margin-top: 3%;
+    margin-left: 2%;
+  }
+
+  .Overskrift_2_h2 {
+    grid-column: 1/4;
+    grid-row: 2;
+    font-size: 2em;
+    margin-left: 2%;
+    margin-top: -5%;
+  }
+  /*3 afsnit*/
+  #Refleksion_tema_6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.1fr 0.1fr;
+  }
+
+  /*2 afsnit*/
+  #afsnit_2_tema_6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr;
+  }
+
+  /*1 afsnit*/
+  #Tema_6_overskrift_intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 1fr;
+  }
 }
 @media (min-width: 1200px) {
   /*1 afsnit*/
@@ -182,6 +249,7 @@ body {
     grid-row: 2/3;
     font-size: 4em;
     margin-left: 2%;
+    margin-top: 0%;
   }
 
   #afsnit_1_p_1 {
@@ -206,7 +274,7 @@ body {
     grid-column: 1/4;
     grid-row: 5;
     font-size: 3em;
-    margin-top: 15%;
+    margin-top: 13%;
     margin-left: 2%;
   }
 
@@ -264,8 +332,8 @@ body {
     font-size: 3em;
     color: #33492f;
     background-color: #e8f2dc;
-    height: 60%;
-    width: 40%;
+    height: 90%;
+    width: 33%;
     place-content: center;
     justify-self: center;
     grid-column: 1/4;
@@ -273,7 +341,7 @@ body {
     padding: 1%;
     border-style: solid;
     border-color: #33492f;
-    margin-top: 4%;
+    margin-top: -5%;
   }
 
   /*3 afsnit*/

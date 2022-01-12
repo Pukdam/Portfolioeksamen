@@ -135,24 +135,23 @@ body {
 }
 
 #Hjemmeside_knap img {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   aspect-ratio: 468/465;
-  grid-column: 1/4;
+  grid-column: 3/4;
   grid-row: 1;
-  margin-left: 20%;
   margin-bottom: 27%;
   margin-top: 10%;
 }
 
 #Hjemmesideknap {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   aspect-ratio: 468/465;
-  grid-column: 1/4;
+  grid-column: 3/4;
   grid-row: 1;
-  margin-left: 20%;
-  margin-bottom: 27%;
+  margin-left: 90px;
+  margin-bottom: 10%;
 }
 
 #Refleksion_tema_2 h3 {
@@ -214,6 +213,59 @@ body {
     margin-left: 30%;
     margin-bottom: 27%;
   }
+
+  /*p*/
+
+  #afsnit_1_tema_2 p {
+    grid-column: 1/4;
+    grid-row: 4;
+    font-size: 1.5em;
+    margin: 2% 2%;
+  }
+
+  #afsnit_1_tema_2 ul {
+    font-family: "Gilda Display", serif;
+    line-height: 30px;
+    grid-column: 1/4;
+    grid-row: 5;
+    font-size: 1.5em;
+    margin: 2% 0%;
+  }
+
+  #afsnit_2_p_1 {
+    grid-column: 1/4;
+    grid-row: 3;
+    font-size: 1.5em;
+    margin: 2% 2%;
+  }
+
+  #afsnit_2_p_2 {
+    grid-column: 1/4;
+    grid-row: 4;
+    font-size: 1.5em;
+    margin: 0% 2%;
+    margin-top: 5%;
+  }
+
+  #afsnit_2_p_3 {
+    grid-column: 1/4;
+    grid-row: 7;
+    font-size: 1.5em;
+    margin: 2% 2%;
+  }
+
+  #Refleksion_p_1 {
+    grid-column: 1/4;
+    grid-row: 3;
+    font-size: 1.5em;
+    margin: 2% 2%;
+  }
+  #Refleksion_p_2 {
+    grid-column: 1/4;
+    grid-row: 4;
+    font-size: 1.5em;
+    margin: 2% 2%;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -261,7 +313,7 @@ body {
     grid-column: 1/4;
     grid-row: 5;
     font-size: 1.8em;
-    margin-top: 5%;
+    margin-top: 0%;
     margin-left: 2%;
   }
 
@@ -332,11 +384,11 @@ body {
 
   #Pitch_knap {
     font-family: "Berkshire Swash", cursive;
-    font-size: 1.8em;
+    font-size: 1.9em;
     color: #494e43;
     background-color: #e8f2dc;
     height: 80%;
-    width: 33%;
+    width: 30%;
     place-content: center;
     justify-self: center;
     grid-column: 1/4;
