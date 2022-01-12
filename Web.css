@@ -158,6 +158,28 @@ body {
   margin: 2% 2%;
 }
 
+@media (min-width: 800px) {
+  #Refleksion_tema_2 a {
+    width: 100px;
+    height: 100px;
+    aspect-ratio: 468/465;
+    grid-column: 1/4;
+    grid-row: 1;
+    margin-left: 30%;
+    margin-bottom: 27%;
+  }
+
+  #Refleksion_tema_2 a img {
+    width: 300px;
+    height: 300px;
+    aspect-ratio: 468/465;
+    grid-column: 1/4;
+    grid-row: 1;
+    margin-left: 30%;
+    margin-bottom: 27%;
+  }
+}
+
 @media (min-width: 1200px) {
   /*1 afsnit*/
   #afsnit_1_tema_2 {

@@ -6,7 +6,7 @@ body {
 #Tema_6_overskrift_intro {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 0.1fr 0.1fr 0.1fr 0.2fr 0.1fr 2fr;
+  grid-template-rows: 0.1fr 0.1fr 0.1fr 0.2fr 0.1fr 0.5fr;
 }
 
 .Overskrift_1_h2 {
@@ -58,7 +58,7 @@ body {
 #afsnit_2_tema_6 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 0.1fr 0.1fr 3fr 0.2fr 0.2fr;
+  grid-template-rows: 0.1fr 0.1fr 1fr 0.2fr 0.2fr;
 }
 
 #afsnit_2_billede_2 {
@@ -143,6 +143,24 @@ body {
   height: 3;
 }
 
+@media (min-width: 800px) {
+  #Wireframe_link {
+    font-family: "Berkshire Swash", cursive;
+    font-size: 1.6em;
+    color: #494e43;
+    background-color: #e8f2dc;
+    height: 50%;
+    width: 35%;
+    place-content: center;
+    justify-self: center;
+    grid-column: 1/4;
+    grid-row: 4;
+    padding: 2%;
+    border-style: solid;
+    border-color: #494e43;
+    margin-top: 4%;
+  }
+}
 @media (min-width: 1200px) {
   /*1 afsnit*/
   #Tema_6_overskrift_intro {
