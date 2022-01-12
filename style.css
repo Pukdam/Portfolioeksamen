@@ -262,7 +262,7 @@ nav li a:hover {
     height: 100%;
     width: 90px;
     aspect-ratio: 423.52/404.06;
-    place-content: left;
+
     grid-column: 1;
     grid-row: 1;
     display: grid;
@@ -410,7 +410,7 @@ nav li a:hover {
     height: 100%;
     width: 90px;
     aspect-ratio: 423.52/404.06;
-    place-content: left;
+
     grid-column: 1;
     grid-row: 1;
     display: grid;
@@ -588,7 +588,6 @@ nav li a:hover {
     height: 100%;
     width: 90px;
     aspect-ratio: 423.52/404.06;
-    place-content: left;
     grid-column: 1;
     grid-row: 1;
     display: grid;
@@ -717,7 +716,6 @@ nav li a:hover {
     height: 100%;
     width: 90px;
     aspect-ratio: 423.52/404.06;
-    place-content: left;
     grid-column: 1;
     grid-row: 1;
     display: grid;
@@ -826,7 +824,6 @@ nav li a:hover {
     height: 100%;
     width: 95px;
     aspect-ratio: 423.52/404.06;
-    place-content: left;
     grid-column: 1;
     grid-row: 1;
     display: grid;
@@ -958,7 +955,6 @@ nav li a:hover {
     height: 100%;
     width: 90px;
     aspect-ratio: 423.52/404.06;
-    place-content: left;
     grid-column: 1;
     grid-row: 1;
     display: grid;
