@@ -10,6 +10,7 @@
 
 body {
   background-color: #c4cdbb;
+  overflow-x: hidden;
 }
 
 p {
@@ -786,7 +787,7 @@ nav li a:hover {
     background-color: #e8f2dc;
     border-color: #6c7264;
     border-style: solid;
-    color: #6c7264;
+    color: #646d58;
     padding: 8px 0px 0px 10px;
     font-size: 2em;
     font-family: "Berkshire Swash", cursive;
@@ -806,7 +807,7 @@ nav li a:hover {
     grid-template-columns: 0.6fr 1fr 0.6fr;
     grid-template-rows: 0.5fr 0.2fr 0.5fr;
     font-family: "Gilda Display", serif;
-    font-size: 1.1em;
+    font-size: 1.4em;
     overflow-x: hidden;
   }
 

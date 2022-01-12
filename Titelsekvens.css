@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 /*afsnit*/
 #Tema_1_overskrift_intro {
   display: grid;

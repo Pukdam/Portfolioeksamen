@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 /*Afsnit 1*/
 #Tema_3_overskrift_intro {
   display: grid;
