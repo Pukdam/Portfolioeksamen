@@ -39,12 +39,12 @@ body {
   margin: 2% 2%;
 }
 
-.Web_liste {
+#afsnit_1_tema_2 ul {
   font-family: "Gilda Display", serif;
   line-height: 25px;
   grid-column: 1/4;
   grid-row: 5;
-  font-size: 1em;
+  font-size: 1.1em;
   margin: 2% 0%;
 }
 
@@ -110,6 +110,23 @@ body {
   margin: 2% 2%;
 }
 
+#Pitch_knap {
+  font-family: "Berkshire Swash", cursive;
+  font-size: 1.6em;
+  color: #494e43;
+  background-color: #e8f2dc;
+  height: 80%;
+  width: 90%;
+  place-content: center;
+  justify-self: center;
+  grid-column: 1/4;
+  grid-row: 8;
+  padding: 2%;
+  border-style: solid;
+  border-color: #494e43;
+  margin-top: 2%;
+}
+
 /*3 afsnit*/
 #Refleksion_tema_2 {
   display: grid;
@@ -117,17 +134,18 @@ body {
   grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr;
 }
 
-#Refleksion_tema_2 a {
-  width: 100px;
-  height: 100px;
+#Hjemmeside_knap img {
+  width: 300px;
+  height: 300px;
   aspect-ratio: 468/465;
   grid-column: 1/4;
   grid-row: 1;
   margin-left: 20%;
   margin-bottom: 27%;
+  margin-top: 10%;
 }
 
-#Refleksion_tema_2 a img {
+#Hjemmesideknap {
   width: 300px;
   height: 300px;
   aspect-ratio: 468/465;
@@ -159,7 +177,24 @@ body {
 }
 
 @media (min-width: 800px) {
-  #Refleksion_tema_2 a {
+  #Pitch_knap {
+    font-family: "Berkshire Swash", cursive;
+    font-size: 1.6em;
+    color: #494e43;
+    background-color: #e8f2dc;
+    height: 80%;
+    width: 42%;
+    place-content: center;
+    justify-self: center;
+    grid-column: 1/4;
+    grid-row: 8;
+    padding: 2%;
+    border-style: solid;
+    border-color: #494e43;
+    margin-top: 2%;
+  }
+
+  #Hjemmeside_knap {
     width: 100px;
     height: 100px;
     aspect-ratio: 468/465;
@@ -167,9 +202,10 @@ body {
     grid-row: 1;
     margin-left: 30%;
     margin-bottom: 27%;
+    margin-top: 10%;
   }
 
-  #Refleksion_tema_2 a img {
+  #Hjemmeside_knap img {
     width: 300px;
     height: 300px;
     aspect-ratio: 468/465;
@@ -294,6 +330,24 @@ body {
     margin: 2% 2%;
   }
 
+  #Pitch_knap {
+    font-family: "Berkshire Swash", cursive;
+    font-size: 1.8em;
+    color: #494e43;
+    background-color: #e8f2dc;
+    height: 80%;
+    width: 33%;
+    place-content: center;
+    justify-self: center;
+    grid-column: 1/4;
+    grid-row: 8;
+    padding: 2%;
+    border-style: solid;
+    border-color: #494e43;
+    margin-top: -1%;
+    margin-bottom: 3%;
+  }
+
   /*3 afsnit*/
   #Refleksion_tema_2 {
     display: grid;
@@ -301,7 +355,7 @@ body {
     grid-template-rows: 0.1fr 0.1fr 0.1fr;
   }
 
-  #Refleksion_tema_2 a img {
+  #Hjemmeside_knap img {
     width: 400px;
     height: 400px;
     aspect-ratio: 468/465;
@@ -311,7 +365,7 @@ body {
     margin-top: 0%;
   }
 
-  #Refleksion_tema_2 a {
+  #Hjemmeside_knap {
     aspect-ratio: 468/465;
     grid-column: 1/4;
     grid-row: 1/3;
